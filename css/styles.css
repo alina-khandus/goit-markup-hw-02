@@ -1,0 +1,285 @@
+/* Styles for all HTML*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Colors palette */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+  --widht-text-color: rgba(250, 250, 250, 0.6);
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+}
+
+/* Styles for all HTML*/
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+/* Logo WebStudio */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.colorblack {
+  color: #000000;
+}
+.colorwite {
+  color: var(--secondary-text-color);
+}
+
+/* Menu navigation */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Menu address */
+.adress-header .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.adress-header .link:hover,
+.adress-header .link:focus {
+  color: var(--accent-color);
+}
+
+/* Styles for index.html */
+/* Hero conteiner */
+.hero-title {
+  color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Button */
+.button {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Section title */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Difference conteiner */
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Services conteiner */
+.services-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Employees conteiner */
+.employees-section {
+  background: #f5f4fa;
+}
+
+.employees-link {
+  background-color: var(--secondary-text-color);
+}
+
+.employees-link:hover {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.employees-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.employees-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* Employees social */
+.social-icon .link {
+  background-color: var(--secondary-text-color);
+  color: #afb1b8;
+}
+
+.social-icon .link:hover,
+.social-icon .link:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+/* Сustomers conteiner */
+.section-items .link {
+  background-color: var(--secondary-text-color);
+}
+
+.section-items .link:hover,
+.section-items .link:focus {
+  background-color: var(--accent-color);
+}
+
+/* Styles for portfolio.html */
+/* Conteiner filter */
+.filter {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.filter .link:hover,
+.filter .link:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+/* Conteiner portfolio */
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.portfolio-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* Footer conteiner */
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer-desc {
+  color: rgba(250, 250, 250, 0.4);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* Footer address */
+.address-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address-subject .link {
+  color: var(--widht-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address-subject .link:hover,
+.address-subject .link:focus {
+  color: var(--accent-color);
+}
+
+/* Footer social */
+.social-item .link {
+  background-color: rgba(250, 250, 250, 0.1);
+  color: var(--secondary-text-color);
+}
+
+.social-item .link:hover,
+.social-item .link:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
