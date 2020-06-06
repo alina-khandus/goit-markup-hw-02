@@ -27,6 +27,8 @@ ul {
   --secondary-text-color: #ffffff;
   --widht-text-color: rgba(250, 250, 250, 0.6);
   --primary-bg-color: #ffffff;
+  --element-bg-color: #f5f4fa;
+  --bg-color: rgba(47, 48, 58, 0.8);
   --secondary-bg-color: #2f303a;
 }
 
@@ -100,7 +102,7 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: var(--bg-color);
 }
 
 /* Button */
@@ -148,12 +150,12 @@ footer {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: var(--bg-color);
 }
 
 /* Employees conteiner */
 .employees-section {
-  background: #f5f4fa;
+  background-color: var(--element-bg-color);
 }
 
 .employees-link {
@@ -205,7 +207,7 @@ footer {
 /* Styles for portfolio.html */
 /* Conteiner filter */
 .filter {
-  background-color: #f5f4fa;
+  background-color: var(--element-bg-color);
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
